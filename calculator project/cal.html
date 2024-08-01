@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+        <div id="displayline">
+        <input  id="display"   readonly>
+        <div class="btn">
+        <button id="clr" onclick="appendTodisplay('+')">+</button>
+        <button id="clr" onclick="appendTodisplay('-')">-</button>
+        <button onclick="appendTodisplay('1')">1</button>
+        <button onclick="appendTodisplay('2')">2</button>
+        <button onclick="appendTodisplay('3')">3</button>
+        <button id="clr" onclick="appendTodisplay('*')">*</button>
+        <button onclick="appendTodisplay('4')">4</button>
+        <button onclick="appendTodisplay('5')">5</button>
+        <button onclick="appendTodisplay('6')">6</button>
+        <button onclick="appendTodisplay('7')">7</button>
+        <button  id="clr" onclick="appendTodisplay('/')">/</button>
+        <button   onclick="appendTodisplay('8')">8</button>
+        <button   onclick="appendTodisplay('9')">9</button>
+        <button   onclick="appendTodisplay('0')">0</button>
+        <button   onclick="appendTodisplay('.')">.</button>
+        <button  id="clr" onclick="appendTodisplay('%')">%</button>
+        <button id="clr"  onclick="appendTodisplay('**')">**</button>
+        <button  id="clr" onclick="cleardisplay()">c</button>
+        <button id="clr" onclick="calculate()">=</button>
+    </div>
+</div>
+
+
+
+
+
+
+    <script src="cal.js">
+
+
+    </script>
+</body>
+</html>
